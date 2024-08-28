@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+}
+body {
+    background-image: url("../img/bg.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+nav {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+.menuButton {
+    font-size: 16px;
+    padding: 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+main {
+    width: auto;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+main h1 {
+    background-color: rgba(240, 248, 255, 0.784);
+    border-radius: 20px;
+    padding: 50px;
+    color:red;
+    margin-top: 35%;
+}
+main h3 {
+    background-color: black;
+    color: aqua;
+    padding: 10px;
+    border: 2px dotted aqua;
+    width: auto;
+    text-align: center;
+}
+
+

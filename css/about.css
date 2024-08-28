@@ -1,0 +1,31 @@
+.aboutDiv h1 {
+    background-color: black;
+    color: aqua;
+    padding: 10px;
+    border: 2px dotted aqua;
+    width: fit-content;
+}
+.aboutdiv {
+    padding: 20px;
+    width: auto;
+}
+.aboutdiv section {
+    background-color: rgba(240, 248, 255, 0.935);
+    padding: 50px 200px;
+    height: auto;
+    line-height: 3em;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    .aboutdiv {
+        padding: 20px 5px;
+        width: auto;
+    }
+
+    .aboutdiv section {
+        padding: 20px;
+        width: 100%;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,81 @@
+body {
+    background-image: url("../img/picMap.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.profileDiv h1 {
+    background-color: black;
+    color: aqua;
+    padding: 10px;
+    border: 2px dotted aqua;
+    width: fit-content;
+}
+.profile_div {
+    padding: 20px;
+    width: auto;
+}
+.profile_div section {
+    background-color: aliceblue;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    place-items: center;
+}
+.profile_div section div {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px 10px 10px;
+    margin: 10px 0;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.profile_div section a {
+    text-decoration: none;
+    color: green;
+}
+h4 {
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+}
+.profileMenu h1 {
+    background-color: transparent;
+    color: aqua;
+    padding: 10px;
+    border: 2px dotted pink;
+    width: fit-content;
+}
+.profilemenu {
+    padding: 20px;
+    width: auto;
+}
+.profilemenu section {
+    background-color: whitesmoke;
+    padding: 50px 80px;
+    height: auto;
+    font-size: 17px;
+    line-height: 3em;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 600px) {
+    .profile_div section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .profilemenu {
+        padding: 20px 5px;
+        width: 100%;
+    }
+    .profilemenu section {
+        padding: 20px;
+        font-size: 16px;
+        text-align: left;
+    }
+}
